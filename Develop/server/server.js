@@ -1,8 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
+// Import ApolloServer
+const { ApolloServer } = require("apollo-server-express");
+// Middleware for authentication
+const { authMiddleware } = require("./utils/auth");
+// Import typeDefs and resolvers from schema
+const { typeDefs, resolvers } = require("./schemas");
 const db = require('./config/connection');
 const routes = require('./routes');
-
 const app = express();
 const PORT = process.env.PORT || 3001;
 
