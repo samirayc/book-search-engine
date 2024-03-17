@@ -11,15 +11,13 @@ For this search engine, starter code of a fully functioning API search engine sy
 * [Technologies](#technologies)
 * [Contact](#contact)
 
-## Preview
-
 ## Installation
 
 * Run `npm i` to install required dependencies
 
 ## Usage
 
-* Access the deployed app [here](link to deployed site)
+* Access the deployed app [here](https://book-search-engine-uigy.onrender.com/)
 * Or... clone the respository to your local machine, and after installing dependencies, run `npm i`
 
 ## Technologies
