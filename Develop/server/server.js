@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 // Import ApolloServer
-onst { ApolloServer } = require('@apollo/server');
+const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
 // Middleware for authentication
 const { authMiddleware } = require("./utils/auth");
